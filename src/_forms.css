@@ -6,7 +6,7 @@
 
 .input-text {
   outline: 0;
-  border: 1px solid var(--silver);
+  border: 1px solid var(--divider);
 }
 
 .input-invisible {

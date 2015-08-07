@@ -3,6 +3,34 @@
   STYLES
 
   Add custom styles here.
+  (Added Material Design starters here)
 
 */
 
+body {
+	color: var(--primary-text);
+	background: var(--text-primary);
+}
+
+.link {
+	color: var(--accent);
+}
+.link:hover, .link:focus {
+	color: var(--secondary-text);
+}
+.btn {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.btn-float,
+.btn-float:link,
+.btn-float:visited {
+	position: relative;
+	border-radius: 50%;
+	padding: 0;
+	text-align: center;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	vertical-align: middle;
+	overflow: hidden;
+}

@@ -2,8 +2,14 @@
 
    COLOR VARIABLES
 
-   Variables to set colors for
-   color, background-color, and border-color
+   Adapted from materialpallete.com
+   Light Blue == sky
+   Deep Orange == persimmon
+   Light Green == grass
+   Deep Purple == violet
+   Blue Grey == Iceberg
+
+   Blacks simplified in lieu of added 'grey' and 'iceberg' classes.
 
 */
 
@@ -33,63 +39,120 @@
   --white-20: rgba(255,255,255,.2);
   --white-10: rgba(255,255,255,.1);
 
+/* GREYS */
+
   --black: #000;
-  --near-black: #111;
-  --dark-gray:#333;
-  --mid-gray:#555;
-  --gray: #777;
-  --silver: #999;
-  --light-silver: #aaa;
-  --moon-gray: #ccc;
-  --light-gray: #eee;
-  --near-white: #f4f4f4;
+  --dark-gray: #212121;
+  --gray: #727272;
+  --light-gray: #B6B6B6;
   --white: #fff;
 
-  --blue: #0074D9;
-  --light-blue: #64a8ff;
-  --lightest-blue: #a2dfff;
-  --dark-blue: #0045a1;
-  --darkest-blue: #002f86;
+  --iceberg: #607D8B;
+  --light-iceberg: #90A4AE;
+  --dark-iceberg: #455A64;
+  --accent-iceberg: #607D8B;
 
-  --yellow: #fff93c;
-  --light-yellow: #fffa60;
-  --lightest-yellow: #fffca6;
-  --dark-yellow: #e2c100;
-  --darkest-yellow: #c4a600;
+  --grey: #9E9E9E;
+  --light-grey: #E0E0E0;
+  --dark-grey: #616161;
+  --accent-grey: #9E9E9E;
 
-  --orange: #FF851B;
-  --light-orange: #ffa942;
-  --lightest-orange: #ffc55d;
-  --dark-orange: #d05e00;
-  --darkest-orange: #b14400;
+/* COLORS */
 
-  --red: #d82c2c;
-  --light-red: #f94f44;
-  --lightest-red: #ff6c5c;
-  --dark-red: #bd001a;
-  --darkest-red: #9d0003;
+  --blue: #2196F3;
+  --light-blue: #64B5F6;
+  --accent-blue: #448AFF;
+  --dark-blue: #1976D2;
 
-  --teal: #27bfa8;
-  --light-teal: #4eddc5;
-  --lightest-teal: #6ffae0;
-  --dark-teal: #25a28f;
-  --darkest-teal: #008876;
+  --sky: #03A9F4;
+  --light-sky: #4FC3F7;
+  --dark-sky: #0288D1;
+  --accent-sky: #03A9F4;
 
-  --green: #3D9970;
-  --light-green: #5ab48a;
-  --lightest-green: #75d0a4;
-  --dark-green: #1e7f58;
-  --darkest-green: #006540;
+  --yellow: #FFEB3B;
+  --light-yellow: #FFF176;
+  --dark-yellow: #FBC02D;
+  --accent-yellow: #FFEB3B;
 
-  --pink: #F012BE;
-  --light-pink: #ff57e8;
-  --lightest-pink: #ff81ff;
-  --dark-pink: #d100a3;
-  --darkest-pink: #b20088;
+  --orange: #FF9800;
+  --light-orange: #FFB74D;
+  --dark-orange: #F57C00;
+  --accent-orange: #FF9800;
 
-  --purple: #980bc6;
-  --light-purple: #b536e2;
-  --lightest-purple: #d355ff;
-  --dark-purple: #7b00a9;
-  --darkest-purple: #5f008e;
+  --amber: #FFC107;
+  --light-amber: #FFD54F;
+  --dark-amber: #FFA000;
+  --accent-amber: #FFC107;
+
+  --persimmon: #FF5722;
+  --light-persimmon: #FF8A65;
+  --dark-persimmon: #E64A19;
+  --accent-persimmon: #FF5722;
+
+  --brown: #795548;
+  --light-brown: #A1887F;
+  --dark-brown: #5D4037;
+  --accent-brown: #795548;
+
+  --red: #F44336;
+  --light-red: #E57373;
+  --accent-red: #FF5252;
+  --dark-red: #D32F2F;
+
+  --teal: #009688;
+  --light-teal: #4DB6AC;
+  --dark-teal: #00796B;
+  --accent-teal: #009688;
+
+  --green: #4CAF50;
+  --light-green: #81C784;
+  --dark-green: #388E3C;
+  --accent-green: #4CAF50;
+
+  --grass: #8BC34A;
+  --light-grass: #AED581;
+  --dark-grass: #689F38;
+  --accent-grass: #8BC34A;
+
+  --lime: #CDDC39;
+  --light-lime: #DCE775;
+  --dark-lime: #AFB42B;
+  --accent-lime: #CDDC39;
+
+  --pink: #E91E63;
+  --light-pink: #F06292;
+  --accent-pink: #FF4081;
+  --dark-pink: #C2185B;
+
+  --purple: #9C27B0;
+  --light-purple: #BA68C8;
+  --accent-purple: #E040FB;
+  --dark-purple: #7B1FA2;
+
+  --violet: #673AB7;
+  --light-violet: #9575CD;
+  --dark-violet: #512DA8;
+  --accent-violet: #7C4DFF;
+
+  --indigo: #3f51B5;
+  --light-indigo: #7986CB;
+  --dark-indigo: #303F9F;
+  --accent-indigo: #536DFE;
+
+  --cyan: #00BCD4;
+  --light-cyan: #4DD0E1;
+  --dark-cyan: #0097A7;
+  --accent-cyan: #00BCD4;
+
+  /* Palette variables - Change to suit needs. Colors found @ materialpalette.com */
+
+  --primary: #2196F3;
+  --light-primary: #64B5F6;
+  --dark-primary: #1976D2;
+  --text-primary: #FFFFFF;
+  --accent: #FF9800;
+  --primary-text: #212121;
+  --secondary-text: #727272;
+  --divider: #B6B6B6;
+
 }
