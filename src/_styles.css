@@ -13,14 +13,66 @@ body {
 }
 
 .link {
-	color: var(--accent);
+	color: var(--primary);
 }
 .link:hover, .link:focus {
-	color: var(--secondary-text);
+	color: var(--dark-primary);
 }
-.btn {
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+/* Material Design Buttons */
+
+.btn--primary,
+.btn--primary:link,
+.btn--primary:visited {
+  color: var(--text-primary);
+  background-color: var(--primary);
 }
+
+.btn--primary:hover {
+  color: #fff;
+  background-color: var(--dark-primary);
+}
+
+.btn--primary:active {
+  color: #fff;
+  background-color: var(--light-primary);
+}
+
+.btn--accent,
+.btn--accent:link,
+.btn--accent:visited {
+  color: var(--text-primary);
+  background-color: var(--accent);
+}
+
+.btn--accent:hover {
+  color: #fff;
+  background-color: var(--accent);
+}
+
+.btn--accent:active {
+  color: #fff;
+  background-color: var(--accent);
+}
+
+.btn--flat,
+.btn--flat:link,
+.btn--flat:visited {
+  color: var(--primary);
+  background-color: none;
+  box-shadow: none;
+}
+
+.btn--flat:hover {
+  color: var(--dark-primary);
+  background-color: none;
+}
+
+.btn--flat:active {
+  color: var(--accent);
+  background-color: none;
+}
+
 .btn-float,
 .btn-float:link,
 .btn-float:visited {
@@ -33,4 +85,7 @@ body {
 	line-height: 55px;
 	vertical-align: middle;
 	overflow: hidden;
+}
+.btn-float i {
+	line-height: 55px;
 }

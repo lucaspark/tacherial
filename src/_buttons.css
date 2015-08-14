@@ -5,11 +5,14 @@ BUTTONS
 .btn,
 .btn:link,
 .btn:visited {
-  border-radius: .3em;
+  position: relative;
+  border-radius: .25em;
   color: var(--text-primary);
   display: inline-block;
   margin-bottom: .5em;
-  padding: 1em;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.75em 1.75em;
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
@@ -152,59 +155,6 @@ BUTTONS
   background-color: #001F3F;
 }
 
-/* Material Design */
-
-.btn--primary,
-.btn--primary:link,
-.btn--primary:visited {
-  color: var(--text-primary);
-  background-color: var(--primary);
-}
-
-.btn--primary:hover {
-  color: #fff;
-  background-color: var(--dark-primary);
-}
-
-.btn--primary:active {
-  color: #fff;
-  background-color: var(--light-primary);
-}
-
-.btn--accent,
-.btn--accent:link,
-.btn--accent:visited {
-  color: var(--text-primary);
-  background-color: var(--accent);
-}
-
-.btn--accent:hover {
-  color: #fff;
-  background-color: var(--accent);
-}
-
-.btn--accent:active {
-  color: #fff;
-  background-color: var(--accent);
-}
-
-.btn--flat,
-.btn--flat:link,
-.btn--flat:visited {
-  color: var(--primary);
-  background-color: none;
-  box-shadow: none;
-}
-
-.btn--flat:hover {
-  color: var(--dark-primary);
-  background-color: none;
-}
-
-.btn--flat:active {
-  color: var(--accent);
-  background-color: none;
-}
 
 /* Keep it mobile-first and responsive */
 
